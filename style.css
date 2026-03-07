@@ -1,0 +1,419 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Header */
+header {
+    background-color: #003366;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Navigation Bar */
+nav {
+    background-color: #0055a5;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: yellow;
+}
+
+/* Main Content */
+main {
+    padding: 40px;
+    text-align: center;
+}
+
+/* Footer */
+footer {
+    background-color: #003366;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
+
+.hero {
+    padding: 60px 20px;
+    background-color: #f4f4f4;
+}
+
+.hero button {
+    padding: 10px 20px;
+    background-color: #0055a5;
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin-top: 15px;
+}
+
+.hero button:hover {
+    background-color: #003366;
+}
+
+.features {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    padding: 40px;
+}
+
+.card {
+    background-color: white;
+    padding: 20px;
+    width: 250px;
+    box-shadow: 0px 2px 8px rgba(0,0,0,0.1);
+}
+
+/* Remove link styling from cards */
+.card-link {
+    text-decoration: none;
+    color: inherit;
+    display: block;
+}
+
+.card-link h3,
+.card-link p {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* Hover animation */
+.card:hover {
+    transform: scale(1.05);
+    transition: 0.3s;
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+table {
+    width: 80%;
+    margin: 30px auto;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 10px;
+    text-align: center;
+}
+
+th {
+    background-color: #0055a5;
+    color: white;
+}
+
+form {
+    width: 60%;
+    margin: 30px auto;
+    text-align: left;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+}
+
+form button {
+    background-color: #0055a5;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #003366;
+}
+
+iframe {
+    margin-top: 20px;
+    max-width: 100%;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+
+    nav ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .features {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    form {
+        width: 90%;
+    }
+
+    table {
+        width: 95%;
+    }
+
+}
+
+.card ul {
+    text-align: left;
+    padding-left: 20px;
+}
+
+.hero-btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #0055a5;
+    color: white;
+    text-decoration: none;
+    margin-top: 15px;
+}
+
+.hero-btn:hover {
+    background-color: #003366;
+}
+
+.tagline {
+    margin-top: 5px;
+    font-size: 14px;
+    color: #dddddd;
+}
+
+header h1 {
+    margin-bottom: 5px;
+}
+
+.contact-info {
+    margin-top: 40px;
+    padding: 20px;
+    background-color: #f4f4f4;
+    text-align: center;
+}
+
+table {
+    width: 80%;
+    margin: 30px auto;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background-color: #0055a5;
+    color: white;
+}
+
+nav ul li a.active {
+    color: yellow;
+}
+
+.card:hover {
+    transform: scale(1.05);
+    transition: 0.3s;
+}
+
+.about-section,
+.partners-section {
+    padding: 50px 20px;
+    text-align: center;
+    background-color: #f9f9f9;
+    margin-top: 40px;
+}
+
+.partners-section ul {
+    list-style: none;
+    padding: 0;
+    margin-top: 20px;
+}
+
+.partners-section ul li {
+    padding: 8px 0;
+    font-weight: bold;
+}
+
+.signup-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 80vh;
+}
+
+.signup-box {
+    background-color: white;
+    padding: 30px;
+    width: 300px;
+    border-radius: 8px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.15);
+    text-align: center;
+}
+
+.signup-box input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.signup-box button {
+    width: 100%;
+    padding: 10px;
+    background-color: #003366;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.signup-box button:hover {
+    background-color: #0055a5;
+}
+
+.privacy-section {
+    max-width: 800px;
+    margin: 40px auto;
+    background-color: white;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+}
+
+.privacy-section h2 {
+    margin-bottom: 20px;
+}
+
+.privacy-section h3 {
+    margin-top: 20px;
+    color: #003366;
+}
+
+/* Center container */
+.signup-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 80vh;
+}
+
+/* Form box */
+.signup-box {
+    background-color: white;
+    padding: 35px;
+    width: 320px;
+    border-radius: 10px;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
+    text-align: center;
+}
+
+/* Heading */
+.signup-box h2 {
+    margin-bottom: 20px;
+    color: #003366;
+}
+
+/* Inputs */
+.signup-box input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 12px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    font-size: 14px;
+}
+
+/* Button */
+.signup-box button {
+    width: 100%;
+    padding: 10px;
+    background-color: #003366;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.signup-box button:hover {
+    background-color: #0055a5;
+}
+
+/* Small text below form */
+.signup-box p {
+    font-size: 14px;
+}
+
+.signup-box a {
+    color: #0055a5;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.signup-box a:hover {
+    text-decoration: underline;
+}
+
+/* Scholarship Table */
+
+table {
+    width: 85%;
+    margin: 25px auto;
+    border-collapse: collapse;
+    background-color: white;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+}
+
+th {
+    background-color: #003366;
+    color: white;
+    padding: 12px;
+    text-align: left;
+}
+
+td {
+    padding: 12px;
+    border-bottom: 1px solid #ddd;
+}
+
+tr:hover {
+    background-color: #f2f2f2;
+}
+
+td a {
+    color: #0055a5;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+td a:hover {
+    text-decoration: underline;
+}
+
+.policy-btn {
+    background-color: #f4c430;   /* Gold

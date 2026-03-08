@@ -429,3 +429,8 @@ td a:hover {
   display: block;
   margin: auto;
 }
+
+    .university img{
+  width:120px;
+  height:auto;
+}

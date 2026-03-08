@@ -417,3 +417,15 @@ td a:hover {
 
 .policy-btn {
     background-color: #f4c430;   /* Gold
+
+    .university {
+  text-align: center;
+  margin: 20px;
+}
+
+.university img {
+  width: 120px;
+  height: auto;
+  display: block;
+  margin: auto;
+}

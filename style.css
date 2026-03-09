@@ -500,16 +500,3 @@ nav a:visited {
 color: white;
 }
 
-.card{
-cursor:pointer;
-transition:0.3s;
-}
-
-.card:hover{
-transform:translateY(-5px);
-box-shadow:0 8px 20px rgba(0,0,0,0.2);
-}
-
-table tr:hover{
-background:#f2f2f2;
-}

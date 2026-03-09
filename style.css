@@ -482,3 +482,12 @@ display:block;
 border-radius:5px;
 border:1px solid #ccc;
 }
+
+#search{
+padding:10px;
+width:300px;
+margin:20px auto;
+display:block;
+border-radius:5px;
+border:1px solid #ccc;
+}

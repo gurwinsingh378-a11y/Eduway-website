@@ -496,7 +496,16 @@ border:1px solid #ccc;
   transition: all 0.3s ease;
 }
 
+nav a {
+color: white;
+text-decoration: none;
+}
+
 nav a:visited {
 color: white;
+}
+
+nav a:hover {
+color: #f4c430;
 }
 

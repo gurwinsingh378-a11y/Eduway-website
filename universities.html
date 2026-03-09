@@ -82,7 +82,28 @@
         <a href="policy.html" class="policy-btn">Privacy Policy</a>
     </p> 
       
-  </footer>   
+  </footer>
+
+     <script>
+const search = document.getElementById("search");
+
+search.addEventListener("keyup", function() {
+
+let filter = search.value.toLowerCase();
+let cards = document.querySelectorAll(".card");
+
+cards.forEach(card => {
+
+if(card.innerText.toLowerCase().includes(filter)){
+card.style.display = "";
+}else{
+card.style.display = "none";
+}
+
+});
+
+});
+</script>
 
 </body>
 </html>

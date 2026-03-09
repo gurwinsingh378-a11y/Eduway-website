@@ -454,3 +454,8 @@ td a:hover {
 .card:hover {
   transform: translateY(-5px);
 }
+
+nav ul li a:hover {
+  color: #f4c430;
+  transition: 0.3s;
+}

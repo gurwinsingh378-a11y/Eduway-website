@@ -496,6 +496,10 @@ border:1px solid #ccc;
   transition: all 0.3s ease;
 }
 
+nav a:visited {
+color: white;
+}
+    
 nav a,
 nav a:visited,
 nav a:active {

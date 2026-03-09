@@ -473,3 +473,12 @@ nav ul li a:hover {
   text-decoration: none;
   border-radius: 5px;
 }
+
+#search{
+padding:10px;
+width:300px;
+margin:20px auto;
+display:block;
+border-radius:5px;
+border:1px solid #ccc;
+}

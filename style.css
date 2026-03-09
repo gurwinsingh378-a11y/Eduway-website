@@ -459,3 +459,17 @@ nav ul li a:hover {
   color: #f4c430;
   transition: 0.3s;
 }
+
+.hero {
+  text-align: center;
+  padding: 80px 20px;
+  background: #f5f7fa;
+}
+
+.btn {
+  background: #0b3d6d;
+  color: white;
+  padding: 12px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+}
